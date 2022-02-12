@@ -1,0 +1,29 @@
+.menubar {
+  background-color: cadetblue;
+  color: rgb(10, 71, 73);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+
+  margin-right: 20px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.drop {
+  display: none;
+}
+
+li:hover .drop {
+  display: flex;
+}
